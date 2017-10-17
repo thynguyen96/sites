@@ -1,0 +1,620 @@
+	<!DOCTYPE html>
+	<!DOCTYPE html>
+	<html lang="en">
+	  <head>
+	    <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	   <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" href="css/style.css">
+	    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+	    <script src="js/jquery-3.2.1.min.js"></script>
+	  </head>
+	  <body style="background-color: #E5E3E3;">
+	    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+	    	<div class="container">
+	    		<a class="navbar-brand" href="#">
+	    			<img src="img/logo.png" alt="" width="50%">
+	    		</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+	  <div class="collapse navbar-collapse menu-bar" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Alumni</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link disabled" href="#">Blog</a>
+	      </li>
+	    </ul>
+	    <form class="form-inline my-2 my-lg-0">
+	      <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"> -->
+	      <button class="btn-signin btn btn-outline-success my-2 my-sm-0" type="submit">Sign in/Sign up</button>
+	      <select class="form-control" id="sel1" style="background-color: #09153A !important; color: #fff !important;">
+		    <option>ENG</option>
+		    <option>VN</option>
+		  </select>
+		  <select class="form-control" id="sel1" style="background-color: #09153A !important; color: #fff !important;">
+		    <option>USD</option>
+		    <option>EURO</option>
+		  </select>
+
+	    </form>
+	  </div>
+	    	</div>
+	  
+	</nav>
+
+	
+	
+	<div class="main-result">
+		<div class="container">
+
+			<div class="row">
+
+				
+			<div class="col-md-4" style="background-color: #fff;margin-top:30px;margin-bottom:30px;">
+
+				
+				<div class="">
+					<p class="filterTitle">Bộ lọc của bạn</p>
+				<div class="filterCard">
+					<p class="myCountry">I'm from</p>
+					<div class="row">
+						<div class="col-md-10 col-xs-12">
+							<div class="alert-customer alert alert-warning alert-dismissible fade show" role="alert">
+							  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+							    <span aria-hidden="true">&times;</span>
+							  </button>
+							  <strong>Vietnam</strong>
+							</div>
+							<!-- <button class="btnResult">Argentina <i class="fa fa-times" aria-hidden="true"></i></button> -->
+						</div>
+						<div class="col-md-12 col-xs-12">
+							<form>
+							  <div class="form-group row">
+							    <!-- <label class="col-md-2 col-form-label"><i class="fa fa-plus" aria-hidden="true"></i> </label> -->
+							    <div class="col-md-10">
+							      <input type="text" class="form-control input-custom" placeholder="Add country...">
+							    </div>
+							  </div>
+							</form>
+						</div>
+					</div>
+					<p class="line-bot"></p>
+				</div>
+
+				<div class="filterCard">
+					<p class="myCountry">I will study in</p>
+					<div class="row">
+						<div class="col-md-10">
+							<div class="alert-customer alert alert-warning alert-dismissible fade show" role="alert">
+							  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+							    <span aria-hidden="true">&times;</span>
+							  </button>
+							  <strong>Argentina</strong>
+							</div>
+							<!-- <button class="btnResult">Argentina <i class="fa fa-times" aria-hidden="true"></i></button> -->
+						</div>
+						<div class="col-md-10">
+							<div class="alert-customer alert alert-warning alert-dismissible fade show" role="alert">
+							  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+							    <span aria-hidden="true">&times;</span>
+							  </button>
+							  <strong>Australia</strong>
+							</div>
+							<!-- <button class="btnResult">Argentina <i class="fa fa-times" aria-hidden="true"></i></button> -->
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<input type="text" class="form-control input-custom" placeholder="Add country...">
+						</div>
+					</div>
+					<p class="line-bot"></p>
+				</div>
+
+				<div class="filterCard">
+					<div class="row">
+						<div class="col-md-6">
+							<!-- <button class="btnResult">Duration<i class="fa fa-times" aria-hidden="true"></i></button> -->
+							<label class="text-filter" for="">Duration</label>
+						</div>
+						<div class="col-md-6">
+							 <select class="form-control" id="sel1">
+						        <option>All</option>
+						        <option>1</option>
+						        <option>2</option>
+						        <option>3</option>
+						        <option>4</option>
+						      </select>
+
+						</div>
+					</div>
+					<p class="line-bot"></p>
+				</div>
+
+				<div class="filterCard">
+					<div class="row">
+						<div class="col-md-6">
+							<label for="" class="text-filter">Major</label>
+						</div>
+						<div class="col-md-6">
+							<input type="text" class="form-control input-custom" placeholder="Add country...">
+						</div>
+					</div>
+					<p class="line-bot"></p>
+				</div>
+
+
+				<div class="filterCard">
+					<div class="row">
+						<div class="col-md-12">
+							<label for="" class="addText">Degree</label>
+						</div>
+						<div class="col-md-12">
+							<div class="degree">
+								<span class="degree-span">Master</span>
+								<span>Bachelor</span>
+								<span>PhD</span>
+								<span>Post-doctoral</span>
+								<span>Staff Position</span>
+								<span>High school</span>
+								<span>Other</span>
+							</div>
+							
+						</div>
+					</div>
+					<p class="line-bot"></p>
+				</div>
+
+				<div class="filterCard">
+					<div class="row">
+						<div class="col-md-12">
+							<label for="" class="addText">Scholarship fund’s name</label>
+						</div>
+						<div class="col-md-12">
+							<input type="text" class="form-control input-custom" placeholder="Scholarship fund">
+						</div>
+					</div>
+					<p class="line-bot"></p>
+				</div>
+				</div>
+
+				<div>
+					<p class="filterTitle" data-toggle="collapse" data-target="#demo">Advanced filter 
+						<a href="#"><i class="fa fa-chevron-down" aria-hidden="true" style="color: #09153A; float: right;margin-top: 15px;"></i></a>
+					</p>
+					<!--  -->
+
+					<div id="demo" class="collapse">
+						<div class="card-advanced">
+							<p class="name-advanced">IELTS</p>
+							<div class="row">
+								<div class="col-md-6">
+									<select class="form-control" id="sel1">
+										<option value="">Từ</option>
+								        <option>1</option>
+								        <option>2</option>
+								        <option>3</option>
+								        <option>4</option>
+								      </select>
+								</div>
+								<div class="col-md-6">
+									<select class="form-control" id="sel1">
+										<option value="">Đến</option>
+								        <option>1</option>
+								        <option>2</option>
+								        <option>3</option>
+								        <option>4</option>
+								      </select>
+								</div>
+							</div>
+						</div>
+
+						<div class="card-advanced">
+							<p class="name-advanced">TOELF</p>
+							<div class="row">
+								<div class="col-md-6">
+									<select class="form-control" id="sel1">
+										<option value="">Từ</option>
+								        <option>1</option>
+								        <option>2</option>
+								        <option>3</option>
+								        <option>4</option>
+								      </select>
+								</div>
+								<div class="col-md-6">
+									<select class="form-control" id="sel1">
+										<option value="">Đến</option>
+								        <option>1</option>
+								        <option>2</option>
+								        <option>3</option>
+								        <option>4</option>
+								      </select>
+								</div>
+							</div>
+						</div>
+
+						<div class="card-advanced">
+							
+							<div class="row">
+								<div class="col-md-6">
+									<p class="name-advanced">GPA</p>
+									<input type="text" class="form-control input-custom" placeholder="Enter GPA">
+								</div>
+								<div class="col-md-6">
+									<p class="name-advanced">Living Cost</p>
+									<select class="form-control" id="sel1">
+										<option value="">--- Select ---</option>
+								        <option>1</option>
+								        <option>2</option>
+								        <option>3</option>
+								        <option>4</option>
+								      </select>
+								</div>
+							</div>
+						</div>
+
+						<div class="card-advanced">
+							<div class="row">
+								<div class="col-md-6">
+									<p class="name-advanced">Tuition Fee</p>
+									<select class="form-control" id="sel1">
+										<option value="">--- All ---</option>
+								        <option>1</option>
+								        <option>2</option>
+								        <option>3</option>
+								        <option>4</option>
+								      </select>
+								</div>
+								<div class="col-md-6">
+									<p class="name-advanced">Purpose</p>
+									<select class="form-control" id="sel1">
+										<option value="">--- Select ---</option>
+								        <option>1</option>
+								        <option>2</option>
+								        <option>3</option>
+								        <option>4</option>
+								      </select>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+
+					
+
+				</div>
+
+				
+
+				
+
+
+
+			</div>
+			<div class="col-md-8 nonebg" style="margin-top: 30px;">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+				  <li class="nav-item">
+				    <a class="nav-link"  id="tabBorder" data-toggle="tab" href="#courseTab" role="tab">Khóa học</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link active"  id="tabBorder" data-toggle="tab" href="#scholarshipTab" role="tab">Học bỗng</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link"  id="tabBorder" data-toggle="tab" href="#alumniTab" role="tab">Alumni</a>
+				  </li>
+				  
+				</ul>
+
+				<div class="total-result">
+					<p></p>
+				</div>
+
+				<!-- Tab panes -->
+				<div class="tab-content contentResult">
+				  <div class="tab-pane" id="courseTab" role="tabpanel">
+
+				  		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At velit aut itaque adipisci veniam quisquam facere provident praesentium placeat suscipit possimus, deserunt quae qui impedit magnam. Autem, fuga facilis non, optio animi labore eligendi consectetur saepe accusantium laborum tempora impedit odio. Nesciunt quas quo eligendi voluptas expedita recusandae nemo et id aut! Ex omnis, labore aspernatur saepe tempore autem tenetur aut accusantium quod qui eligendi illum maiores magni delectus iusto incidunt velit aliquam totam maxime laborum ratione quia repellendus quo animi. Molestiae qui beatae velit architecto. Id laboriosam tempore quidem corporis iste quo sapiente impedit recusandae odit aut, aspernatur at. Autem dolorem, maiores explicabo amet quisquam magni nulla, dicta sunt inventore! Veritatis provident doloremque illo molestiae, dicta distinctio cumque rerum, amet cupiditate maiores asperiores veniam autem, fuga dolores, alias odit. Voluptatem consequuntur debitis commodi facere possimus beatae ducimus eveniet officiis dolor, architecto assumenda impedit, dolore dolorum distinctio. Minima aut in unde deleniti nihil non voluptatum reiciendis necessitatibus, quos laudantium ipsa minus itaque aperiam, repudiandae maxime corrupti molestiae quisquam cum ea, vero illum eveniet sequi inventore voluptatibus? Atque voluptate nostrum aliquid ipsum accusamus dolorem autem cupiditate labore esse quam laborum error, vel sed ea voluptatem mollitia. Ipsam soluta sapiente iste incidunt aliquid at distinctio odit, fugit, autem temporibus cum facere deleniti perferendis placeat perspiciatis sed libero totam eum animi. Ex perspiciatis ab earum labore molestiae culpa quod sunt aut fuga est similique cumque cum, eligendi dicta magnam nihil, dolorem tempora veritatis sapiente laborum quam. At inventore, temporibus aspernatur culpa deserunt odio eligendi dolore rerum esse odit nam omnis fugit laudantium consequuntur repudiandae, assumenda quam provident maiores. Neque soluta totam mollitia eos itaque dolore quos laboriosam nobis esse hic magni officia, labore cupiditate laborum necessitatibus ratione cumque ullam ad velit numquam, enim accusamus. Error deleniti officiis iusto alias quibusdam excepturi voluptate dolores earum praesentium molestiae! Tempora itaque enim quisquam perspiciatis perferendis maxime tenetur assumenda non quidem incidunt, ex sed iste soluta vero dolores reiciendis magnam voluptatibus consequuntur est illum quasi? Consectetur magnam rerum saepe explicabo quam voluptatibus officia laborum placeat ad vitae quod voluptas mollitia necessitatibus voluptatem dolorum, laudantium unde odit impedit animi natus aut temporibus cupiditate perspiciatis? Et saepe commodi, ipsum autem. Porro iusto, est ipsam praesentium obcaecati dolore architecto ipsum neque sapiente doloribus necessitatibus laborum vitae omnis quasi sint maiores inventore consectetur asperiores suscipit laudantium aut quam nobis iure expedita. Illum aliquam ipsam veritatis quos omnis magni ipsum ducimus, a eveniet aspernatur officia eaque, amet voluptatum obcaecati vitae? Numquam, obcaecati, nulla! Unde iste provident illo laboriosam nesciunt reprehenderit. Sit architecto pariatur consequatur laborum voluptatum, fugiat est debitis accusamus veritatis laudantium nemo eveniet eos, sint aliquid dolorem, adipisci obcaecati optio velit! Eius voluptatem nam alias, incidunt quis veritatis eveniet, quo eaque libero facere debitis. Quae culpa esse tenetur amet eaque, totam dolorum minus blanditiis magnam optio necessitatibus iusto molestias possimus maiores sapiente et cumque eum, alias ad ratione adipisci nihil quisquam nemo. Et, dolores sunt, nesciunt cupiditate ad perferendis est accusantium repellat nostrum eos aliquid, numquam totam eveniet. Adipisci porro, ullam?</p>
+				  </div>
+				  <div class="tab-pane  active" id="scholarshipTab" role="tabpanel">
+				  	<p class="total-result">2900 scholarships found</p>
+				  	<nav aria-label="Page navigation example">
+					  <ul class="pagination">
+					    <li class="page-item"><a class="page-link" href="#"><i class="fa fa-arrow-left" aria-hidden="true"></i> </a></li>
+					    <li class="page-item"><a class="page-link" href="#">1</a></li>
+					    <li class="page-item"><a class="page-link" href="#">2</a></li>
+					    <li class="page-item"><a class="page-link" href="#">3</a></li>
+					    <li class="page-item"><a class="page-link" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+					  </ul>
+					</nav>
+				  	<div class="card-scholarship">
+					  	<div class="row">
+
+					  		<div class="col-md-3">
+					  			<ul class="img-scholarship">
+					  				<li>
+					  					<img src="img/gallery-15.jpg" alt="" width="140px">
+					  				</li>
+					  				<p class="text-star"><i class="fa fa-star star-customer" aria-hidden="true"></i>  Save</p>
+					  				
+					  				<!-- <p></p> -->
+					  				<!-- <li id="star">
+					  					<i class="fa fa-star" aria-hidden="true"></i>Save
+					  				</li> -->
+					  			</ul>
+					  		</div>
+					  		<div class="col-md-9">
+					  			<ul class="info-scholarship">
+					  				<li class="name-scholarship">Minnesota Student Aid Scholarship</li>
+					  				<li class="country-scholarship">United Negro College Fund</li>
+					  				<li class="btn-scholarship">
+					  					<button class="btnResult">Master</button>
+					  				</li>
+					  				<li class="detail-scholarship">Must be a resident of Mississippi enrolled full-time at an eligible Mississippi college or university. Must maintain a minimum 2.5 GPA each semester. MTAG awards may be up to $500 per academic year for freshman and sophomores and $1000 per academic year for juniors and seniors.</li>
+					  				<li class="price-scholarship">$7000 
+					  					<span class="time-scholarship"><i class="fa fa-map-marker" aria-hidden="true"></i> Minnesota, USA</span>
+					  					<span class="time-scholarship"><i class="fa fa-calendar-o" aria-hidden="true"></i> 30 June 2017</span>
+					  					<span class="time-scholarship"><i class="fa fa-clock-o" aria-hidden="true"></i> 4 months</span>
+					  				</li>
+					  			</ul>
+					  		</div>
+					  	</div>
+				  	</div>
+
+				  	<div class="card-scholarship">
+					  	<div class="row">
+					  		<div class="col-md-3">
+					  			<ul class="img-scholarship">
+					  				<li>
+					  					<img src="img/gallery-15.jpg" alt="" width="140px">
+					  				</li>
+					  				<p class="text-star"><i class="fa fa-star" aria-hidden="true"></i>  Save</p>
+					  			</ul>
+					  		</div>
+					  		<div class="col-md-9">
+					  			<ul class="info-scholarship">
+					  				<li class="name-scholarship">Minnesota Student Aid Scholarship</li>
+					  				<li class="country-scholarship">United Negro College Fund</li>
+					  				<li class="btn-scholarship">
+					  					<button class="btnResult">Master</button>
+					  				</li>
+					  				<li class="detail-scholarship">Must be a resident of Mississippi enrolled full-time at an eligible Mississippi college or university. Must maintain a minimum 2.5 GPA each semester. MTAG awards may be up to $500 per academic year for freshman and sophomores and $1000 per academic year for juniors and seniors.</li>
+					  				<li class="price-scholarship">$7000 
+					  					<span class="time-scholarship"><i class="fa fa-map-marker" aria-hidden="true"></i> Minnesota, USA</span>
+					  					<span class="time-scholarship"><i class="fa fa-calendar-o" aria-hidden="true"></i> 30 June 2017</span>
+					  					<span class="time-scholarship"><i class="fa fa-clock-o" aria-hidden="true"></i> 4 months</span>
+					  				</li>
+					  			</ul>
+					  		</div>
+					  	</div>
+				  	</div>
+
+				  	<div class="card-scholarship">
+					  	<div class="row">
+					  		<div class="col-md-3">
+					  			<ul class="img-scholarship">
+					  				<li>
+					  					<img src="img/gallery-15.jpg" alt="" width="140px">
+					  				</li>
+					  				<p class="text-star"><i class="fa fa-star" aria-hidden="true"></i>  Save</p>
+					  			</ul>
+					  		</div>
+					  		<div class="col-md-9">
+					  			<ul class="info-scholarship">
+					  				<li class="name-scholarship">Minnesota Student Aid Scholarship</li>
+					  				<li class="country-scholarship">United Negro College Fund</li>
+					  				<li class="btn-scholarship">
+					  					<button class="btnResult">Master</button>
+					  				</li>
+					  				<li class="detail-scholarship">Must be a resident of Mississippi enrolled full-time at an eligible Mississippi college or university. Must maintain a minimum 2.5 GPA each semester. MTAG awards may be up to $500 per academic year for freshman and sophomores and $1000 per academic year for juniors and seniors.</li>
+					  				<li class="price-scholarship">$7000 
+					  					<span class="time-scholarship"><i class="fa fa-map-marker" aria-hidden="true"></i> Minnesota, USA</span>
+					  					<span class="time-scholarship"><i class="fa fa-calendar-o" aria-hidden="true"></i> 30 June 2017</span>
+					  					<span class="time-scholarship"><i class="fa fa-clock-o" aria-hidden="true"></i> 4 months</span>
+					  				</li>
+					  			</ul>
+					  		</div>
+					  	</div>
+				  	</div>
+
+
+				  </div>
+				  <div class="tab-pane" id="alumniTab" role="tabpanel">
+				  	<p class="total-result">2900 scholarships found</p>
+				  	<nav aria-label="Page navigation example">
+					  <ul class="pagination">
+					    <li class="page-item"><a class="page-link" href="#"><i class="fa fa-arrow-left" aria-hidden="true"></i> </a></li>
+					    <li class="page-item"><a class="page-link" href="#">1</a></li>
+					    <li class="page-item"><a class="page-link" href="#">2</a></li>
+					    <li class="page-item"><a class="page-link" href="#">3</a></li>
+					    <li class="page-item"><a class="page-link" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a></li>
+					  </ul>
+					</nav>
+				  	<div class="card-alumni">
+				  			<div class="row">
+					  			<div class="col-md-3">
+					  				<ul class="img-alumni">
+					  					<li><img src="img/gallery-15.jpg" alt="" width="140px"></li>
+					  				</ul>
+					  			</div>
+					  			<div class="col-md-5">
+					  				<ul class="info-alumni">
+					  							<li class="name-alumni">Nguyen Tung Lam</li>
+					  							<li class="major-alumni">IT Engineer | Tampere, Finland</li>
+					  							<li class="school-alumni"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Vietnam National University, Hanoi</li>
+					  							<li class="country-alumni"><i class="fa fa-twitch" aria-hidden="true"></i>  English, Vietnamese</li>
+					  				</ul>
+					  			</div>
+					  			<div class="col-md-4">
+					  				<ul class="reviews-alumni">
+					  							<li class="">
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #FFB116;"></i>
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #FFB116;"></i>
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #FFB116;"></i>
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #FFB116;"></i>
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #DFDDDD;"></i>
+					  							</li>
+					  							<li>2 reviews</li>
+					  							<li><button class="btnResult" style="">Đặt lịch</button></li>
+					  						</ul>
+					  			</div>
+					  		</div>
+				  		</div>
+
+				  		<div class="card-alumni">
+				  			<div class="row">
+					  			<div class="col-md-3">
+					  				<ul class="img-alumni">
+					  					<li><img src="img/gallery-15.jpg" alt="" width="140px"></li>
+					  				</ul>
+					  			</div>
+					  			<div class="col-md-5">
+					  				<ul class="info-alumni">
+					  							<li class="name-alumni">Nguyen Tung Lam</li>
+					  							<li class="major-alumni">IT Engineer | Tampere, Finland</li>
+					  							<li class="school-alumni"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Vietnam National University, Hanoi</li>
+					  							<li class="country-alumni"><i class="fa fa-twitch" aria-hidden="true"></i>  English, Vietnamese</li>
+					  				</ul>
+					  			</div>
+					  			<div class="col-md-4">
+					  				<ul class="reviews-alumni">
+					  							<li class="">
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #FFB116;"></i>
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #FFB116;"></i>
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #FFB116;"></i>
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #FFB116;"></i>
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #DFDDDD;"></i>
+					  							</li>
+					  							<li>2 reviews</li>
+					  							<li><button class="btnResult" style="">Đặt lịch</button></li>
+					  						</ul>
+					  			</div>
+					  		</div>
+				  		</div>
+
+				  		<div class="card-alumni">
+				  			<div class="row">
+					  			<div class="col-md-3">
+					  				<ul class="img-alumni">
+					  					<li><img src="img/gallery-15.jpg" alt="" width="140px"></li>
+					  				</ul>
+					  			</div>
+					  			<div class="col-md-5">
+					  				<ul class="info-alumni">
+					  							<li class="name-alumni">Nguyen Tung Lam</li>
+					  							<li class="major-alumni">IT Engineer | Tampere, Finland</li>
+					  							<li class="school-alumni"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Vietnam National University, Hanoi</li>
+					  							<li class="country-alumni"><i class="fa fa-twitch" aria-hidden="true"></i>  English, Vietnamese</li>
+					  				</ul>
+					  			</div>
+					  			<div class="col-md-4">
+					  				<ul class="reviews-alumni">
+					  							<li class="">
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #FFB116;"></i>
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #FFB116;"></i>
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #FFB116;"></i>
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #FFB116;"></i>
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #DFDDDD;"></i>
+					  							</li>
+					  							<li>2 reviews</li>
+					  							<li><button class="btnResult" style="">Đặt lịch</button></li>
+					  						</ul>
+					  			</div>
+					  		</div>
+				  		</div>
+
+				  		<div class="card-alumni">
+				  			<div class="row">
+					  			<div class="col-md-3">
+					  				<ul class="img-alumni">
+					  					<li><img src="img/gallery-15.jpg" alt="" width="140px"></li>
+					  				</ul>
+					  			</div>
+					  			<div class="col-md-5">
+					  				<ul class="info-alumni">
+					  							<li class="name-alumni">Nguyen Tung Lam</li>
+					  							<li class="major-alumni">IT Engineer | Tampere, Finland</li>
+					  							<li class="school-alumni"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Vietnam National University, Hanoi</li>
+					  							<li class="country-alumni"><i class="fa fa-twitch" aria-hidden="true"></i>  English, Vietnamese</li>
+					  				</ul>
+					  			</div>
+					  			<div class="col-md-4">
+					  				<ul class="reviews-alumni">
+					  							<li class="">
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #FFB116;"></i>
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #FFB116;"></i>
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #FFB116;"></i>
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #FFB116;"></i>
+					  								<i class="fa fa-star" aria-hidden="true" style="color: #DFDDDD;"></i>
+					  							</li>
+					  							<li>2 reviews</li>
+					  							<li><button class="btnResult" style="">Đặt lịch</button></li>
+					  						</ul>
+					  			</div>
+					  		</div>
+				  		</div>
+				  </div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="img/logo.png" alt="" height="45px">
+				</div>
+				<div class="col-md-3">
+					<p>Ella Study Vietnam JSC<br>
+					All right reserved.</p>
+				</div>
+				<div class="col-md-3">
+					<p>a: 15C Nguyen Khang St..,<br>
+					Cau Giay Dist, Ha Noi, Vietnam</p>
+				</div>
+				<div class="col-md-3">
+					<p>m: +84 466557784<br>
+					e: info@ellastudy.com</p>
+				</div>
+			</div>
+		</div>
+
+		
+	</footer>
+	
+
+
+		<script>
+			$(".fa-star").click(function() {
+			  $(this).toggleClass("star-customer");
+			});
+		</script>	
+
+		<script>
+			$(".degree span").click(function() {
+			  $(this).toggleClass("degree-span");
+			});
+		</script>		
+	     <!-- Optional JavaScript -->
+	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	    <script src="js/jquery-3.2.1.slim.min.js"></script>
+	    <script src="js/popper.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script> 
+	  </body>
+	</html>
